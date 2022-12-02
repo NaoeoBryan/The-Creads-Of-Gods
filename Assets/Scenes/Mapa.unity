@@ -3736,7 +3736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -48.299927, y: -118}
+  m_AnchoredPosition: {x: -48.299805, y: -118}
   m_SizeDelta: {x: -1677.94, y: -1050}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &517735225
@@ -8927,7 +8927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936455860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 15.1, z: -96.16858}
+  m_LocalPosition: {x: 6.39, y: 15.09, z: -96.16858}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13258,16 +13258,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1921818792}
+      - m_Target: {fileID: 1921818797}
         m_TargetAssemblyTypeName: Transicao, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: ChamaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Battle
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1375124935
@@ -19154,6 +19154,7 @@ GameObject:
   - component: {fileID: 1921818794}
   - component: {fileID: 1921818793}
   - component: {fileID: 1921818796}
+  - component: {fileID: 1921818797}
   m_Layer: 0
   m_Name: slime boss
   m_TagString: Untagged
@@ -19288,6 +19289,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 32
   radious: 3
+--- !u!114 &1921818797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921818792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839bdfa2cad700643b0377691dc03c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1923989362 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3623429242805549018, guid: 0b61cf2f6d2621a46938248a0e780b5e, type: 3}
